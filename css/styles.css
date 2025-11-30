@@ -1,0 +1,216 @@
+/* reset Default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Global */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+body html {
+    height: 100%;
+}
+
+a {
+    color: #9b9e56;
+}
+
+a:hover {
+    color: #525b02;
+}
+
+
+/* Hero */
+header {
+    background-image: linear-gradient(rgba(20, 81, 123, 0.4), rgba(20, 81, 123, 1)), url("/img/Wikimedia_Hackathon_San_Francisco_107.webp");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 5% 10% 5% 10%;
+  }
+  
+  #hero {
+    color: #f8f1e9;
+  }
+
+  #hero h1 {
+    font-size: 37pt;
+  }
+
+/* CTA Button */
+.custom-button {
+    background-color: #9b9e56;
+    color: #f8f1e9;
+    padding: 10px 20px;
+    border: 2px solid #9b9e56;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 14pt;
+}
+
+.custom-button:hover {
+    background-color: #525b02;
+    color: #f8f1e9;
+    border: 2px solid #525b02;
+}
+
+.custom-button a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Main */
+main {
+    padding: 20px 10%;
+    background-color: #14517b;
+}
+
+main section {
+    padding: 20px;
+    background-color: #f8f1e9;
+    color: #14517b;
+}
+
+main section p {
+    padding: 20px 0px;
+    line-height: normal;
+}
+
+main section ul li {
+    margin-left: 2%;
+    padding: 2% 0 0 0;
+}
+
+main section h2 {
+    background-color: #14517b;
+    color: #f8f1e9;
+    padding: 5px 20px;
+}
+
+.custom-form {
+    color: #f8f1e9;
+    background-color: #14517b;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    input[type=text], select {
+        width: 100%;
+        padding: 12px;
+        margin: 8px 0;
+        display: flex;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      
+      input[type=submit] {
+        width: 100%;
+        background-color: #9b9e56;
+        color: #f8f1e9;
+        padding: 10px 20px;
+        border: 2px solid #9b9e56;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        font-size: 12pt;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #525b02;
+        color: #f8f1e9;
+        border: 2px solid #525b02;;
+      }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+figcaption {
+    text-align: center;
+    padding: 10px;
+}
+
+#speakers img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#sponsors {
+    align-items: center;
+}
+
+#sponsors img {
+    width: 25%;
+    display: block;
+    padding: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  #sponsors img {
+    width: 50%;
+  }
+}
+
+
+/* Images Align Horizontally */
+#sdg .row {
+  display: flex;
+}
+
+#sdg .column {
+  flex: 50%;
+  padding: 5px;
+}
+
+#speakers .column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+#speakers .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Horizontal Align Image Responsive Design */
+@media screen and (max-width: 700px) {
+  #speakers .column {
+    width: 100%;
+  }
+}
+
+/* Footer */
+footer {
+    padding: 0 10% 0 10%;
+    background-color: #f8f1e9;
+    color: #14517b;
+}
+
+footer section {
+    padding: 10px 20px;
+}
+
+footer img {
+    width: 50px;
+    display: inline-table;
+    padding: 10px;
+}
+
