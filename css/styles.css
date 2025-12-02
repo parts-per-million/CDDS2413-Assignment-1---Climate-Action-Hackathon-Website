@@ -28,7 +28,7 @@ a:hover {
 
 /* Hero */
 header {
-    background-image: linear-gradient(rgba(20, 81, 123, 0.4), rgba(20, 81, 123, 1)), url("/img/Wikimedia_Hackathon_San_Francisco_107.webp");
+    background-image: linear-gradient(rgba(20, 81, 123, 0.4), rgba(20, 81, 123, 1)), url("../img/Wikimedia_Hackathon_San_Francisco_107.webp");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -213,6 +213,7 @@ footer img {
     display: inline-table;
     padding: 10px;
 }
+
 
 
 
